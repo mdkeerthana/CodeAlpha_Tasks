@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="title">Image Gallery</h1>
+    <div class="filter-buttons">
+        <button onclick="filterImages('all')">All</button>
+        <button onclick="filterImages('nature')">Nature</button>
+        <button onclick="filterImages('animals')">Animals</button>
+        <button onclick="filterImages('city')">City</button>
+    </div>
+    <div class="gallery">
+
+        <div class="image-box nature">
+            <img src="img1.jpg" onclick="openLightbox(0)">
+        </div>
+
+        <div class="image-box animals">
+            <img src="img2.jpg" onclick="openLightbox(1)">
+        </div>
+
+        <div class="image-box city">
+            <img src="img3.jpg" onclick="openLightbox(2)">
+        </div>
+
+        <div class="image-box nature">
+            <img src="img4.jpg" onclick="openLightbox(3)">
+        </div>
+
+        <div class="image-box animals">
+            <img src="img5.jpg" onclick="openLightbox(4)">
+        </div>
+
+        <div class="image-box city">
+            <img src="img6.jpg" onclick="openLightbox(4) " >
